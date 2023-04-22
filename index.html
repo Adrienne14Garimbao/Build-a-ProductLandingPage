@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  -->
+
+    <!-- Author: Adrienne Garimbao -->
+      <meta name="author" content="Adrienne Garimbao">
+      <meta name="designer" content="Adrienne Garimbao">
+    <!-- Author: Adrienne Garimbao -->
+
+    <!-- Desciption: Build a Product Landing Page using CSS HTML -->
+      <meta name="description" content="Build a Product Landing Page CSS HTML">
+      <meta name="keywords" content="Product Landing Page CSS HTML">
+    <!-- Desciption: Build a Product Landing Page using CSS HTML -->
+
+    <!-- === COMPONENT DIRECTORY === -->
+    
+      <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+      <!-- CSS -->
+
+    <!-- === COMPONENT DIRECTORY === -->
+
+    <title>Product Landing Page</title>
+
+  </head>
+  <body>
+
+    <header id="header">
+      <img id="header-img" src="logo.png" alt="Logo" />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/QHxUfXpoPhA"
+          title="Product Demo"
+          id="video"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+      </section>
+
+      <section id="features" class="flex-container">
+
+        <div class="flex-item">
+          <h2>Feature 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="flex-item">
+          <h2>Feature 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="flex-item">
+          <h2>Feature 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+      </section>
+
+      <section id="pricing">
+        <h2>Pricing</h2>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+          <input type="submit" id="submit" value="Submit">
+        </form>
+      </section>
+
+    </main>
+  </body>
+</html>

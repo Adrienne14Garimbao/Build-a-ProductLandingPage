@@ -1,0 +1,95 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  #header-img {
+    height: 50px;
+  }
+
+  #nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #video {
+    width: 100%;
+    height: 500px;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  #email {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f7f7f7;
+  }
+
+  #email::placeholder {
+    color: #aaa;
+  }
+
+  #submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    /* Example: hide some nav links on smaller screens */
+    .nav-link:nth-child(n + 4) {
+      display: none;
+    }
+  }
+
+  /* Flexbox example */
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  .flex-item {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+  }
